@@ -1,0 +1,19 @@
+0. Feladat
+Írja le a GitHub használatának legfontosabb parancsait - local és remote. 
+Mentés: Neptunkod_1.txt
+Töltse fel a GitHub rendszerbe a megadott mappába.
+
+
+Lokális parancsok:
+git init: Inicializál egy új Git repository-t a jelenlegi munkakönyvtárban.
+git add <fájlnév>: Hozzáadja a fájlt a staging area-hoz, készítve azt a következő commitra.
+git commit -m "Commit üzenet": Rögzíti a staging area tartalmát egy új commit-ban, a megadott üzenettel együtt.
+git status: Megmutatja a munkakönyvtár és a staging area aktuális állapotát, azaz mely fájlok módosultak, melyeket hozzáadtál a staging area-hoz, stb.
+git log: Kiírja a repository összes eddigi commitját időrendi sorrendben.
+
+Távoli (Remote) parancsok:
+git clone <repository_url>: Lemásolja a távoli repository-t a helyi gépre.
+git push: Felküldi a lokális változtatásokat a távoli repository-ba.
+git pull: Frissíti a helyi repository-t a távoli változtatásokkal, vagyis letölti és összefésüli a távoli változtatásokat a lokális változtatásokkal.
+git remote -v: Listázza az összes távoli repository-t és azok URL-jét.
+git remote add <remote_nev> <repository_url>: Hozzáad egy új távoli repository-t a lokálishoz.
